@@ -13,5 +13,10 @@ Todo:
 * ...
  
 To start:
+```
 $ php -S localhost:8000
+```
+in the second terminal tab
+```
 $ npm start
+```
