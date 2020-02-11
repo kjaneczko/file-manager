@@ -1,0 +1,29 @@
+.item {
+    position: relative;
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    width: 80px;
+    height: 90px;
+    padding: 10px 5px 0px;
+    border: 1px solid #ccc;
+    text-align: center;
+    word-wrap: break-word;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.item:hover {
+    background-color: #eee;
+}
+
+span.folderIcon:before, a.fileIcon:before {
+    content: '';
+    display: block;
+    background-color: #333;
+    width: 50px;
+    height: 60px;
+    margin: 0 auto;
+}
