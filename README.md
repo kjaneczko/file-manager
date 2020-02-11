@@ -9,5 +9,9 @@ Todo:
 * function to CRUD file
 * add styles
 * security measures (path traversal etc.)
+* loader
 * ...
  
+To start:
+$ php -S localhost:8000
+$ npm start
