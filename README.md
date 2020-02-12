@@ -14,9 +14,13 @@ Todo:
  
 To start:
 ```
+$ npm install
+```
+then start php server
+```
 $ php -S localhost:8000
 ```
-in the second terminal tab
+and in the second terminal tab
 ```
 $ npm start
 ```
